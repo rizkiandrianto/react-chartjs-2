@@ -204,13 +204,13 @@ class ChartComponent extends React.Component {
 
   render() {
     const {height, width, onElementsClick} = this.props;
-
+    console.log('Test');
     return (
       <canvas
         height={height}
         width={width}
         onClick={this.handleOnClick}
-        id={this.props.id}
+        id="test"
       />
     );
   }
