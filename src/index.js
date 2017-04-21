@@ -18,7 +18,8 @@ class ChartComponent extends React.Component {
     options: PropTypes.object,
     redraw: PropTypes.bool,
     type: PropTypes.oneOf(['doughnut', 'pie', 'line', 'bar', 'horizontalBar', 'radar', 'polarArea', 'bubble']),
-    width: PropTypes.number
+    width: PropTypes.number,
+    id: PropTypes.string
   }
 
   static defaultProps = {
