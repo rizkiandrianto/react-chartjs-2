@@ -209,6 +209,7 @@ class ChartComponent extends React.Component {
         height={height}
         width={width}
         onClick={this.handleOnClick}
+        id={this.props.id}
       />
     );
   }
